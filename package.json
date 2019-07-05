@@ -1,0 +1,18 @@
+{
+  "name": "rethink-explorer",
+  "version": "1.0.0",
+  "description": "RethinkDB Data Explorer",
+  "main": "src/server.js",
+  "repository": "git@github.com:jellz/rethink-explorer",
+  "author": "Daniel Gulic <danielgulic@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "rethinkdbdash": "^2.3.31"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  }
+}
